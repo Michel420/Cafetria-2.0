@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./img/favicon.cafe.png" type="image/x-icon">
+    <title>Cafeteria</title>
+</head>
+<body>
+    <div class="caixa-video">
+        <video src="./videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header>
+        <section>
+            <a href="#">
+                <img src="./img/logo.png" alt="">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+
+        </section>
+    </header>
+    
+    
+        <section class="caixa-principal">
+            <div>
+                <h3>Code com o melhor café da Região</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, dolorum at. Dicta distinctio nisi, laudantium, odio repellendus reiciendis magni, inventore excepturi eum natus corrupti sapiente? Tempore tempora animi placeat quia.</p>
+                <a class="botao-link" >Pegue o seu agora</a>
+            </div>
+        </section>
+    
+        <section class="caixa-sobre">
+            <h2 class="titulo"> <samp>Sobre</samp> Nós</h2>
+              <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="./img/about-img.jpeg" alt="">
+                </div>
+
+                <div class="sobre-texto">
+                    <h3>Oque faz nosso café especial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ea optio quaerat sint! Quasi praesentium quaerat possimus perferendis laborum fuga voluptate qui magni fugit atque nesciunt dignissimos, sed ab dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor ipsa sunt pariatur aperiam, amet ipsum atque, obcaecati facilis similique vero necessitatibus quos veritatis perspiciatis vitae nostrum. Nisi, commodi consequatur.</p>
+
+                    <a id="botao-x">Saiba Mais</a>
+                </div>
+
+
+              </div>  
+        </section>
+
+
+        <div class="modal">
+            <h3><span>Nosso</span>Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56790.985958264035!2d-48.509389500000005!3d-27.17401065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8a51c087ff747%3A0x4cb5ed474985fb2f!2sBombinhas%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1731107006442!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="./script.js"></script>
+</body>
+
+
+
+</html>
